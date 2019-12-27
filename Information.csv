@@ -1,0 +1,27 @@
+Baseline process metrics,Are there goals for a teams process (e.g. defect resolved in 24 hours)
+Manual reporting,Data is processed by hand (e.g. spreadsheets).
+Customer feedback collected,Does the team collect feedback from the customers of their code?
+Reports visible to runner,"Data is available, but not widely available."
+Measure the process,Does the team generate metrics to measure their performance?
+Static code analysis reports,Are metrics from static code analysis (see Testing & Verification) reported?
+Scheduled quality reports,Are code quality reports generated on regular intervals?
+Application monitoring,Is code instrumented to provide operational metrics?
+Customer feedback handling,Does the team collect and process customer feedback?
+Reports visible to the team,Are reports visible to the entire team?
+Common information model,Are there a standard set of Key Process Indicators for the team?
+Traceability into pipeline,"Are data generate to follow the flow of work through  development, deployment and operations?"
+Report history is available,Is trending possible for the collected data?
+Advanced customer monitoring,Is customer usage of the application gathered and used to improve product outcomes?
+A/B testing mechanisms in place,Can artifacts be compared against prior versions?
+Automatic generation of release notes,Can release notes be generated from development artifacts?
+Reports visible across team silos,Are reports visible to other teams in the organizational unit?
+Graphing as a service,Does the team use graphing tools to generate reports in addition to tables or lists?
+Dynamic test coverage analysis,Can tests be chosen on a set of criteria to generate metrics only for those criteria?
+Report trend analysis,Does the team use  trend analysis to spot issues before they become problems?
+Decision making based on detailed analysis,Are team decisions made based on the results of detailed analysis of metrics and KPIs?
+Dynamic graphing and dashboards,Does the team use automated data visualization tools?
+Cross silo analysis,Does the team compare results with other teams?
+Real-time data collection and analysis and reporting,"Are data collected, processed and reported in real-time?"
+Dynamic self-service of information,Can team members perform ad-hoc analysis of data collected?
+Customizable dashboards,Can team members create custom views into the data?
+Cross-reference across organizational boundaries,Does the team compare results with other teams in the organization and the industry?
