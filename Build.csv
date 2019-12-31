@@ -1,39 +1,45 @@
-Regressive:Manual deployment of artifacts,Can the application only be deployed manually?
-Regressive:Environments are manually provisioned,"Are environments (DEV, TEST, PROD, etc.) provisioned manually?"
-Regressive:Infrequent releases,Is there no regularly schedule releases for the team?
-Regressive:Manual builds,"Are artifacts assembled, in whole or part, manually?"
-Versioned code base,Does the team use source control management tools?
-Any build can be recreated from version control,Can any prior version be reproduced from source control?
-"Scripted builds (Gradle, Maven, etc.)",Is a build tool used to completely assemble the artifacts?
-Basic Scheduled Builds (CI),Is the build tool run regularly?
-Commits are tied to tasks (and backlog items),Are commits related to particular items in the backlog?
-Dedicated build server,Is there a dedicated server to assemble the artifacts?
-Documented manual deploy,Is the manual deployment of the artifact well documented?
-Some deployments scripting exists,Is some of the deployment process scripted in any manner?
-Polling builds,Does the build server poll the source code management system for changes to trigger building new artifacts?
-Builds are stored,Are the artifacts of the build process stored for later analysis?
-Libraries and dependencies are managed,"Are libraries required by the artifact, and the artifact itself, stored and managed?"
-Manual tag and versioning,Are the artifacts versioned using some well documented methodology?
-First steps towards standardized deployments,"Has the team started to standardize the deployment of the artifacts in any environment (DEV, TEST, PROD)?"
-Continuous integration reporting,Doe the tem conduct regular builds which include testing to ensure commits do not break existing functionality?
-Auto-triggered builds (commit-hooks),Are builds triggered automatically when code changes are committed to the source code management system?
-Automated tag and versioning,Are versions generated automatically by the build process?
-"Build once, deploy anywhere","Is there one build for all environments (DEV, TEST, PROD)?"
-Management of build artifacts,Are all build artifacts checked into a central repository for use by other processes and teams?
-Automated most database changes,Are required changes to application databases automated as part of the deployment process?
-Automated Release Notes,Are release noted generated automatically from the backlog?
-Build fails if quality metrics are not met,Can static analysis results cause the build to fail?
-Basic pipeline with deployment to Prod,"Does the team build, test and deploy to all environment including production when code is checked in?"
-No broken builds (board is all green),Does the team allow build processes to remain in a failure state?
-Automated provisioning of environments,Does the team automatically configure infrastructure to perform testing and deployment?
-Scripted config changes (e.g. app server),Does the team use automated methods to determine the deployment environment and adjust configurations accordingly?
-Zero downtime deployments,Can the application be deployed without bringing down the application?
-Orchestrated deployments,Can the deployment be coordinated with other teams and artifacts?
-Push button deployment of any artifact to any environment,Can the team deploy any version of any artifact to any environment in an automated manner?
-Blue/Green deployments,Can the development team deploy new versions in parallel with prior versions and control access to each version?
-Team prioritizes deployable code over new work,Does the team make sure the code deploys smoothly before new features are added?
-Multiple build machines,Does the team use multiple build servers (master and nodes) in their deployment process?
-"Full, automatic database deployments","Are required changes to the database automated, or are there any manual steps?"
-"Build bakery (containers, machine images)",Does the team utilize containers to deploy completely configured services or versions of their application?
-Zero touch continuous deployments,Can the application be deployed without any manual intervention?
-Deployments on endlessly scalable platforms,Can the application be deployed on an unknown number of platforms?
+Concept,Build and Deploy (Regressive),Manual deployment of artifacts,Can the application only be deployed manually?
+Concept,Build and Deploy (Regressive),Environments are manually provisioned,"Are environments (DEV, TEST, PROD, etc.) provisioned manually?"
+Concept,Build and Deploy (Regressive),Infrequent releases,Is there no regularly schedule releases for the team?
+Concept,Build and Deploy (Regressive),Manual builds,"Are artifacts assembled, in whole or part, manually?"
+Section Header,Base Level Practices,Where all teams should start,This section describes the list of DevOps practices all teams should adopt at a minimum
+Concept,Build and Deploy,Versioned code base,Does the team use source control management tools?
+Concept,Build and Deploy,Any build can be recreated from version control,Can any prior version be reproduced from source control?
+Concept,Build and Deploy,"Scripted builds (Gradle, Maven, etc.)",Is a build tool used to completely assemble the artifacts?
+Concept,Build and Deploy,Basic Scheduled Builds (CI),Is the build tool run regularly?
+Concept,Build and Deploy,Commits are tied to tasks (and backlog items),Are commits related to particular items in the backlog?
+Concept,Build and Deploy,Dedicated build server,Is there a dedicated server to assemble the artifacts?
+Concept,Build and Deploy,Documented manual deploy,Is the manual deployment of the artifact well documented?
+Concept,Build and Deploy,Some deployments scripting exists,Is some of the deployment process scripted in any manner?
+Section Header,Beginner Level Practices,Building on the basics,This section describes the practices where teams begin to manage their processes
+Concept,Build and Deploy,Polling builds,Does the build server poll the source code management system for changes to trigger building new artifacts?
+Concept,Build and Deploy,Builds are stored,Are the artifacts of the build process stored for later analysis?
+Concept,Build and Deploy,Libraries and dependencies are managed,"Are libraries required by the artifact, and the artifact itself, stored and managed?"
+Concept,Build and Deploy,Manual tag and versioning,Are the artifacts versioned using some well documented methodology?
+Concept,Build and Deploy,First steps towards standardized deployments,"Has the team started to standardize the deployment of the artifacts in any environment (DEV, TEST, PROD)?"
+Concept,Build and Deploy,Continuous integration reporting,Doe the tem conduct regular builds which include testing to ensure commits do not break existing functionality?
+Section Header,Intermediate Level Practices,Growing and advancing,These practices are exhibited by teams who deliver consistent quality artifacts
+Concept,Build and Deploy,Auto-triggered builds (commit-hooks),Are builds triggered automatically when code changes are committed to the source code management system?
+Concept,Build and Deploy,Automated tag and versioning,Are versions generated automatically by the build process?
+Concept,Build and Deploy,"Build once, deploy anywhere","Is there one build for all environments (DEV, TEST, PROD)?"
+Concept,Build and Deploy,Management of build artifacts,Are all build artifacts checked into a central repository for use by other processes and teams?
+Concept,Build and Deploy,Automated most database changes,Are required changes to application databases automated as part of the deployment process?
+Concept,Build and Deploy,Automated Release Notes,Are release noted generated automatically from the backlog?
+Concept,Build and Deploy,Build fails if quality metrics are not met,Can static analysis results cause the build to fail?
+Concept,Build and Deploy,Basic pipeline with deployment to Prod,"Does the team build, test and deploy to all environment including production when code is checked in?"
+Concept,Build and Deploy,No broken builds (board is all green),Does the team allow build processes to remain in a failure state?
+Concept,Build and Deploy,Automated provisioning of environments,Does the team automatically configure infrastructure to perform testing and deployment?
+Concept,Build and Deploy,Scripted config changes (e.g. app server),Does the team use automated methods to determine the deployment environment and adjust configurations accordingly?
+Section Header,Advanced Level Practices,Going above and beyond,These practices are exhibited by teams well-practiced in continual delivery
+Concept,Build and Deploy,Zero downtime deployments,Can the application be deployed without bringing down the application?
+Concept,Build and Deploy,Orchestrated deployments,Can the deployment be coordinated with other teams and artifacts?
+Concept,Build and Deploy,Push button deployment of any artifact to any environment,Can the team deploy any version of any artifact to any environment in an automated manner?
+Concept,Build and Deploy,Blue/Green deployments,Can the development team deploy new versions in parallel with prior versions and control access to each version?
+Concept,Build and Deploy,Team prioritizes deployable code over new work,Does the team make sure the code deploys smoothly before new features are added?
+Concept,Build and Deploy,Multiple build machines,Does the team use multiple build servers (master and nodes) in their deployment process?
+Concept,Build and Deploy,"Full, automatic database deployments","Are required changes to the database automated, or are there any manual steps?"
+Section Header,Expert Level Practices,Now you are just showing off,These practices are on the bleeeding edge of DevOps practices
+Concept,Build and Deploy,"Build bakery (containers, machine images)",Does the team utilize containers to deploy completely configured services or versions of their application?
+Concept,Build and Deploy,Zero touch continuous deployments,Can the application be deployed without any manual intervention?
+Concept,Build and Deploy,Deployments on endlessly scalable platforms,Can the application be deployed on an unknown number of platforms?
+Section Header,Summary,"Questions, Answers, and Discussion"

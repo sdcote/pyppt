@@ -1,32 +1,40 @@
-Regressive:individuals work in isolation,Individuals are physically and logically separated from team with limited communications.
-Regressive:Part-Time Team Members,"Team is composed of members who support multiple teams (e.g. 20% allocated to this team, 80% to others)."
-Teams based on platform/technology,Are teams created based on the product or technology for which they are responsible?
-Prioritized Work,Do teams work of a list of prioritized backlog items?
-Defined and documented processes,Do teams follow a clear and well-known methodology to development?
-Frequent commits,Do team members make frequent (multiple times a day) commits to a source code management system?
-One Backlog per team,Does the team only have one source of work?
-Share the pain,Does the team own work as a group?
-Stable teams,Does team membership remain the same over the life of the project?
-Buy-in from management,Does management agree with Agile and DevOps principles?
-Adopt basic agile methods,Does the team actively practice agile methodologies?
-Cross-functional training,"Is the team constantly learning, sharing, and training each other on every area of the software and process to create a unified development effort?"
-Remove boundary between Dev & Test,Can the team easily test their own code without the intervention of an external team?
-Remove boundaries between teams,Can teams easily collaborate and assist each other without external approval?
-Extended team collaboration,"Are teams expected to share resources (e.g. DBA, CM, BA, Ops) and are incented to do so for the success of the overall product?"
-Component ownership,Does only one team own a component or can anybody change anything anytime?
-Act on metrics,Does the team change their methodologies based on collected metrics and their goals?
-Remove Boundary between Development & Operations,Can the development team perform their own operations in order to do get work done?
-Common process for all changes,Does the team follow one process for all changes to the product?
-Decentralize decisions,Is the team empowered to make their own decisions?
-Backlog items are refined by business (product owner),Is there a single deciding party for the teams prioritized list of work?
-Automatic backlog item creation (e.g. defects),Are items added to the teams list of work automatically when a defect is found?
-Continuous improvement (Kaizen) within the team,Is the team empowered to change their methodology based on what works best for them?
-Dedicated tools team,Is there at least one team which ensures all the tools required for efficient development and deployment of product is available to the development team?
-Team responsible for all environments including PROD,"Is the team empowered to build, test and deploy artifacts to all environments including production?"
-Deploy disconnected from release,Are teams empowered to deploy individual artifacts without having to coordinate with external teams?
-Continuous improvement (Kaizen) across teams,"Are all teams collaborating across organizational units to improve efficiency, quality and value delivery?"
-Automated proposed backlog prioritization,Are there tools in place to automatically add and prioritize items to a teams backlog as in the case of defects?
-Cross functional teams,"Does the team have all the skills and expertise to perform any and all functions requires to build, test and deploy product?"
-Explicit knowledge transfer,Is cross-training of team members across organizational boundaries an explicit part of the development process?
-No rollbacks (always roll forward),Are fixes to code deployed when defects occur or do teams roll back to a prior version?
-AI based backlog creation and prioritization,Is artificial intelligence used to create and prioritize backlog items for the team?
+Concept,Culture & Organization (Regressive),Individuals work in isolation,Individuals are physically and logically separated from team with limited communications.
+Concept,Culture & Organization (Regressive),Part-Time Team Members,"Team is composed of members who support multiple teams (e.g. 20% allocated to this team, 80% to others)."
+Section Header,Base Level Practices,Where all teams should start,This section describes the list of DevOps practices all teams should adopt at a minimum
+Concept,Culture & Organization,Teams based on platform/technology,Are teams created based on the product or technology for which they are responsible?
+Concept,Culture & Organization,Prioritized Work,Do teams work of a list of prioritized backlog items?
+Concept,Culture & Organization,Defined and documented processes,Do teams follow a clear and well-known methodology to development?
+Concept,Culture & Organization,Frequent commits,Do team members make frequent (multiple times a day) commits to a source code management system?
+Section Header,Beginner Level Practices,Building on the basics,This section describes the practices where teams begin to manage their processes
+Concept,Culture & Organization,One Backlog per team,Does the team only have one source of work?
+Concept,Culture & Organization,Share the pain,Does the team own work as a group?
+Concept,Culture & Organization,Stable teams,Does team membership remain the same over the life of the project?
+Concept,Culture & Organization,Buy-in from management,Does management agree with Agile and DevOps principles?
+Concept,Culture & Organization,Adopt basic agile methods,Does the team actively practice agile methodologies?
+Concept,Culture & Organization,Cross-functional training,"Is the team constantly learning, sharing, and training each other on every area of the software and process to create a unified development effort?"
+Concept,Culture & Organization,Remove boundary between Dev & Test,Can the team easily test their own code without the intervention of an external team?
+Concept,Culture & Organization,Remove boundaries between teams,Can teams easily collaborate and assist each other without external approval?
+Section Header,Intermediate Level Practices,Growing and advancing,These practices are exhibited by teams who deliver consistent quality artifacts
+Concept,Culture & Organization,Extended team collaboration,"Are teams expected to share resources (e.g. DBA, CM, BA, Ops) and are incented to do so for the success of the overall product?"
+Concept,Culture & Organization,Component ownership,Does only one team own a component or can anybody change anything anytime?
+Concept,Culture & Organization,Act on metrics,Does the team change their methodologies based on collected metrics and their goals?
+Concept,Culture & Organization,Remove Boundary between Development & Operations,Can the development team perform their own operations in order to do get work done?
+Concept,Culture & Organization,Common process for all changes,Does the team follow one process for all changes to the product?
+Concept,Culture & Organization,Decentralize decisions,Is the team empowered to make their own decisions?
+Concept,Culture & Organization,Backlog items are refined by business (product owner),Is there a single deciding party for the teams prioritized list of work?
+Concept,Culture & Organization,Automatic backlog item creation (e.g. defects),Are items added to the teams list of work automatically when a defect is found?
+Concept,Culture & Organization,Continuous improvement (Kaizen) within the team,Is the team empowered to change their methodology based on what works best for them?
+Section Header,Advanced Level Practices,Going above and beyond,These practices are exhibited by teams well-practiced in continual delivery
+Concept,Culture & Organization,Dedicated tools team,Is there at least one team which ensures all the tools required for efficient development and deployment of product is available to the development team?
+Concept,Culture & Organization,Team responsible for all environments including PROD,"Is the team empowered to build, test and deploy artifacts to all environments including production?"
+Concept,Culture & Organization,Deploy disconnected from release,Are teams empowered to deploy individual artifacts without having to coordinate with external teams?
+Concept,Culture & Organization,Continuous improvement (Kaizen) across teams,"Are all teams collaborating across organizational units to improve efficiency, quality and value delivery?"
+Concept,Culture & Organization,Automated proposed backlog prioritization,Are there tools in place to automatically add and prioritize items to a teams backlog as in the case of defects?
+Section Header,Expert Level Practices,Now you are just showing off,These practices are on the bleeeding edge of DevOps practices
+Concept,Culture & Organization,Cross functional teams,"Does the team have all the skills and expertise to perform any and all functions requires to build, test and deploy product?"
+Concept,Culture & Organization,Explicit knowledge transfer,Is cross-training of team members across organizational boundaries an explicit part of the development process?
+Concept,Culture & Organization,No rollbacks (always roll forward),Are fixes to code deployed when defects occur or do teams roll back to a prior version?
+Concept,Culture & Organization,AI based backlog creation and prioritization,Is artificial intelligence used to create and prioritize backlog items for the team?
+Section Header,Summary,"Questions, Answers, and Discussion"
+
+

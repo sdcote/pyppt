@@ -1,26 +1,32 @@
-Regressive: Manual testing after development,The only testing is performed by hand after the artifact is created.
-Automatic unit tests,Are individual units of source code tested?
-Separate test environment,"Are artifacts deployed and tested in a separate, known, stable environment?"
-Automatic integration tests,Are tests conducted with the artifact placed in operation with other artifacts?
-Test Coverage Analysis,Does the team trach what lines of code are being tested?
-Static Code Analysis,"Is code run through scanners to identify bug patterns, security, and quality issues?"
-Automatic component tests (isolated),Does the team conduct white-box testing of individual components of the system?
-Some automatic acceptance (functional) tests,Does the team perform some tests correlated to individual acceptance criteria?
-Automated tests written as part of story development,"As a story or acceptance criteria is being defined, are automated tests written and checked into the code base?"
-Maintain test data,Does the team use a known set of test data against which tests are conducted?
-Test driven development,Does the team write tests first then code until the tests pass?
-Manual performance testing,Does the team test the performance of their artifacts?
-Manual security testing,Does the team test the security of their artifacts?
-Full automatic acceptance tests,Are all acceptance criteria validated regressively with automated tests?
-Behavior driven development,Does the team generate scenario-based tests cases for the application then code until those scenarios complete as expected?
-Automatic acceptance tests,Are acceptance tests performed as part of the build and deploy process?
-Automatic performance tests,Are performance and load tests performed as part of the build and deploy process?
-Automatic security tests,Are security tests performed as part of the build and deploy process?
-Adaptive test suites,Do tests change based on the results of other tests?
-Risk based manual testing,Does the team perform manual testing only when risk has been identified?
-End to end testing,Does the team perform testing of a transaction from start to completion (e.g. order entry to checkout)?
-Regression testing,Are all previous tests run against the current artifact in different configurations?
-Verify expected business value,Does the team verify that the expected value of a change has been realized by the customer?
-Test in production,Can tests be run in the production environment without fear of outage or corruption of data integrity?
-Continuous testing pipeline with regression testing,Are all regression tests performed as part of an artifacts build and deploy process?
-Defects found and fixed immediately (roll forward),"Are defects prioritized, addressed and deployed immediately without regard to release schedules?"
+Concept,Testing & Verification (Regressive),Manual testing after development,The only testing is performed by hand after the artifact is created.
+Section Header,Base Level Practices,Where all teams should start,This section describes the list of DevOps practices all teams should adopt at a minimum
+Concept,Testing & Verification,Automatic unit tests,Are individual units of source code tested?
+Concept,Testing & Verification,Separate test environment,"Are artifacts deployed and tested in a separate, known, stable environment?"
+Section Header,Beginner Level Practices,Building on the basics,This section describes the practices where teams begin to manage their processes
+Concept,Testing & Verification,Automatic integration tests,Are tests conducted with the artifact placed in operation with other artifacts?
+Concept,Testing & Verification,Test Coverage Analysis,Does the team trach what lines of code are being tested?
+Concept,Testing & Verification,Static Code Analysis,"Is code run through scanners to identify bug patterns, security, and quality issues?"
+Section Header,Intermediate Level Practices,Growing and advancing,These practices are exhibited by teams who deliver consistent quality artifacts
+Concept,Testing & Verification,Automatic component tests (isolated),Does the team conduct white-box testing of individual components of the system?
+Concept,Testing & Verification,Some automatic acceptance (functional) tests,Does the team perform some tests correlated to individual acceptance criteria?
+Concept,Testing & Verification,Automated tests written as part of story development,"As a story or acceptance criteria is being defined, are automated tests written and checked into the code base?"
+Concept,Testing & Verification,Maintain test data,Does the team use a known set of test data against which tests are conducted?
+Concept,Testing & Verification,Test driven development,Does the team write tests first then code until the tests pass?
+Concept,Testing & Verification,Manual performance testing,Does the team test the performance of their artifacts?
+Concept,Testing & Verification,Manual security testing,Does the team test the security of their artifacts?
+Section Header,Advanced Level Practices,Going above and beyond,These practices are exhibited by teams well-practiced in continual delivery
+Concept,Testing & Verification,Full automatic acceptance tests,Are all acceptance criteria validated regressively with automated tests?
+Concept,Testing & Verification,Behavior driven development,Does the team generate scenario-based tests cases for the application then code until those scenarios complete as expected?
+Concept,Testing & Verification,Automatic acceptance tests,Are acceptance tests performed as part of the build and deploy process?
+Concept,Testing & Verification,Automatic performance tests,Are performance and load tests performed as part of the build and deploy process?
+Concept,Testing & Verification,Automatic security tests,Are security tests performed as part of the build and deploy process?
+Concept,Testing & Verification,Adaptive test suites,Do tests change based on the results of other tests?
+Concept,Testing & Verification,Risk based manual testing,Does the team perform manual testing only when risk has been identified?
+Concept,Testing & Verification,End to end testing,Does the team perform testing of a transaction from start to completion (e.g. order entry to checkout)?
+Concept,Testing & Verification,Regression testing,Are all previous tests run against the current artifact in different configurations?
+Section Header,Expert Level Practices,Now you are just showing off,These practices are on the bleeeding edge of DevOps practices
+Concept,Testing & Verification,Verify expected business value,Does the team verify that the expected value of a change has been realized by the customer?
+Concept,Testing & Verification,Test in production,Can tests be run in the production environment without fear of outage or corruption of data integrity?
+Concept,Testing & Verification,Continuous testing pipeline with regression testing,Are all regression tests performed as part of an artifacts build and deploy process?
+Concept,Testing & Verification,Defects found and fixed immediately (roll forward),"Are defects prioritized, addressed and deployed immediately without regard to release schedules?"
+Section Header,Summary,"Questions, Answers, and Discussion"
