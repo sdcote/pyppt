@@ -47,7 +47,16 @@ for g in glob.glob("/path/to/your/images*"):
     # TODO: scipy.misc.imread is now imageio.imread
     img = scipy.misc.imread(g)
     pic_height = int(pic_width * img.shape[0] / img.shape[1])
+
+    # image.left = int((prs.slide_width - image.width) / 2) centering horizontally
+
     # pic   = slide.shapes.add_picture(g, pic_left, pic_top)
     pic = slide.shapes.add_picture(g, pic_left, pic_top, pic_width, pic_height)
+
+    # move picture to background
+    slide.shapes._spTree.remove(pic._element)
+    slide.shapes._spTree.insert(2, pic._element)  # use the number that does the appropriate job
+
+
 
 prs.save("%s.pptx" % OUTPUT_TAG)
