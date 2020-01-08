@@ -1,3 +1,4 @@
+Section Header,Regressive Practices,Doing more harm than good,This section describes the list of DevOps practices which take away from a teams maturity
 Concept,Design & Architecture (Regressive),Manual database migrations,Do databases need manual updates before the product can be deployed?,
 Section Header,Base Level Practices,Where all teams should start,This section describes the list of DevOps practices all teams should adopt at a minimum
 Concept,Design & Architecture,Consolidated platform and technology,Does the product require a single platform?,

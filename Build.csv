@@ -1,3 +1,4 @@
+Section Header,Regressive Practices,Doing more harm than good,This section describes the list of DevOps practices which take away from a teams maturity
 Concept,Build and Deploy (Regressive),Manual deployment of artifacts,Can the application only be deployed manually?
 Concept,Build and Deploy (Regressive),Environments are manually provisioned,"Are environments (DEV, TEST, PROD, etc.) provisioned manually?"
 Concept,Build and Deploy (Regressive),Infrequent releases,Is there no regularly schedule releases for the team?

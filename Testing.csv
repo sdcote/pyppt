@@ -1,3 +1,4 @@
+Section Header,Regressive Practices,Doing more harm than good,This section describes the list of DevOps practices which take away from a teams maturity
 Concept,Testing & Verification (Regressive),Manual testing after development,The only testing is performed by hand after the artifact is created.
 Section Header,Base Level Practices,Where all teams should start,This section describes the list of DevOps practices all teams should adopt at a minimum
 Concept,Testing & Verification,Automatic unit tests,Are individual units of source code tested?
