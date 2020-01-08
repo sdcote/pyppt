@@ -14,8 +14,65 @@ def add_note_to_slide(slide, slide_notes):
     text_frame.text = slide_notes
 
 
-def add_background_image_to_slide(slide, slide_bkgnd):
-    pass
+def parse_body_text(body_text):
+    retval = body_text.replace("\\n", '\n')
+    retval = retval.replace("\\r", '\r')
+    retval = retval.replace("\\t", '\t')
+    return retval
+
+
+def add_background_to_slide(slide, slide_bkgnd):
+    # image.left = int((prs.slide_width - image.width) / 2) centering horizontally
+    # pic = slide.shapes.add_picture(g, pic_left, pic_top, pic_width, pic_height)
+    pic = slide.shapes.add_picture(slide_bkgnd, 0, 0)
+
+    # move picture to background
+    slide.shapes._spTree.remove(pic._element)
+    slide.shapes._spTree.insert(2, pic._element)  # use the number that does the appropriate job
+
+
+def get_image_placeholder(slide):
+    retval = None
+    for shape in slide.shapes:
+        if shape.is_placeholder:
+            phf = shape.placeholder_format
+            print('%d, %s' % (phf.idx, phf.type))
+            if phf.type == 18:
+                retval = shape
+                break
+    return retval
+
+
+def get_placeholder_by_type(slide, ptype):
+    retval = None
+    for shape in slide.shapes:
+        if shape.is_placeholder and shape.placeholder_format.type == ptype:
+            retval = shape
+            break
+    return retval
+
+
+def get_object_placeholder(slide):
+    return get_placeholder_by_type(slide, 7)
+
+
+def get_picture_placeholder(slide):
+    return get_placeholder_by_type(slide, 18)
+
+
+def add_image_to_slide(slide, slide_bkgnd):
+    picture = None
+    placeholder = get_image_placeholder(slide)
+    if (placeholder is not None):
+        picture = placeholder.insert_picture(slide_bkgnd)
+    else:
+        placeholder = get_object_placeholder(slide)
+        if (placeholder is not None):
+            print("Error: object placeholder does not support image")
+        else:
+            print("setting as background")
+
+    return picture
 
 
 def create_deck(titletxt, subtitletxt, name):
@@ -31,11 +88,11 @@ def create_deck(titletxt, subtitletxt, name):
         reader = csv.reader(f)
         my_list = list(reader)
 
-        slide_notes = None
-        slide_bkgnd = None
-
         for l in my_list:
             if len(l) == 0: continue
+
+            slide_notes = None
+            slide_bkgnd = None
 
             layout = l[0]
             if layout is None: layout = CONCEPT
@@ -48,19 +105,21 @@ def create_deck(titletxt, subtitletxt, name):
             slide = prs.slides.add_slide(blank_slide_layout)
             title = slide.shapes.title
             title.text = slide_title
-            shapes = slide.shapes
-            body_shape = shapes.placeholders[1]
-            tf = body_shape.text_frame
-            tf.text = slide_body
+            if slide_body is not None and slide_body > "":
+                shapes = slide.shapes
+                body_shape = shapes.placeholders[1]
+                tf = body_shape.text_frame
+                tf.text = parse_body_text(slide_body)
 
-            if slide_notes is not None: add_note_to_slide(slide, slide_notes)
-
-            if slide_bkgnd is not None: add_background_image_to_slide(slide, slide_bkgnd)
+            #  if slide_bkgnd is not None and slide_bkgnd > "": add_background_to_slide(slide, slide_bkgnd)
+            if slide_bkgnd is not None and slide_bkgnd > "": add_image_to_slide(slide, slide_bkgnd)
+            if slide_notes is not None and slide_notes > "": add_note_to_slide(slide, slide_notes)
 
     prs.save(name + '.pptx')
 
 
 if __name__ == "__main__":
+    create_deck("Continuous Delivery Maturity Model", "Sustainable value delivery", "Overview")
     create_deck("Culture & Organization", "The environment of continuous delivery", "Culture")
     create_deck("Design & Architecture", "Structuring your product for success", "Design")
     create_deck("Build & Deploy", "Building your product artifacts", "Build")
