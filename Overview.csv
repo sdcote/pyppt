@@ -1,0 +1,15 @@
+Concept,Continuous Delivery,"Creating, testing, and delivering value with greater speed and frequency","Although it started as a software engineering concept, it has been sucessfuly applied to a broader concept of value delivery"
+Concept,A Broader Concept,"Continuous Delivery is the ability to get changes of all types into the hands of users, safely and quickly in a sustainable way.","This includies new features, configuration changes, bug fixes and experiments"
+1_Title and Content,The Benefits,"Low Risk Releases\nFaster Time to Market\nHigher Quality\nLower Costs\nBetter Products\nHappier Teams",""
+Concept,It's Not Magic,"It’s about continuous, daily improvement—the constant discipline of pursuing higher performance","Follow the heuristic 'if it hurts, do it more often, and bring the pain forward.”"
+Concept,Maturity Model,How do you transform your organization to ensure sustainable results?, This model gives structure and understanding to the implementation of Continuous Delivery and its core components.
+Section Header,The Five Categories,"Key aspects to consider when implementing Continuous Delivery"
+Concept,Culture & Organization,The environment of continuous delivery,The organization and it’s culture are probably the most important aspects to consider when aiming to create a sustainable Continuous Delivery environment that takes advantage of all the resulting effects.
+Concept,Design & Architecture,Structuring your product for success,"The design and architecture of your products and services will have an essential impact on your ability to adopt continuous delivery. If a system is built with continuous delivery principles and a rapid release mind set from the beginning, the journey will be much smoother.",
+Concept,Build and Deploy,Building your product artifacts,Build and deployment is of course core to Continuous Delivery and this is where a lot of tools and automation come into the pipeline; this is what is most is commonly perceived when Continuous Delivery is discussed.
+Concept,Testing & Verification,Product artifact quality,Testing is  an absolutely crucial part of a successful implementation of Continuous Delivery.
+Concept,Information & Reporting,Measuring success and progress,"You cannot manage any process without information. Practices in this category give feedback to the team on the effectivness of the process and quality of the value delivered."
+Section Header,Maturity Assessment,"Measuring current state and progress"
+Concept,Maturity Assessment,Simple inventory of practices,Teams get points for adopted practices
+Picture,Example Assessment,,"This assessment is for a real team",media/Assessment.emf
+Section Header,Summary,"Questions, Answers, and Discussion",
