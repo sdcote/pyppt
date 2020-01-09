@@ -22,24 +22,10 @@ def parse_body_text(body_text):
 
 
 def add_background_to_slide(slide, slide_bkgnd):
-    # image.left = int((prs.slide_width - image.width) / 2) centering horizontally
-    # pic = slide.shapes.add_picture(g, pic_left, pic_top, pic_width, pic_height)
-    pic = slide.shapes.add_picture(slide_bkgnd, 0, 0)
-
-    # move picture to background
-    slide.shapes._spTree.remove(pic._element)
-    slide.shapes._spTree.insert(2, pic._element)  # use the number that does the appropriate job
-
-
-def get_image_placeholder(slide):
-    retval = None
-    for shape in slide.shapes:
-        if shape.is_placeholder:
-            phf = shape.placeholder_format
-            print('%d, %s' % (phf.idx, phf.type))
-            if phf.type == 18:
-                retval = shape
-                break
+    # retval = slide.shapes.add_picture(g, pic_left, pic_top, pic_width, pic_height)
+    retval = slide.shapes.add_picture(slide_bkgnd, 0, 0)
+    slide.shapes._spTree.remove(retval._element)
+    slide.shapes._spTree.insert(2, retval._element)
     return retval
 
 
@@ -62,15 +48,11 @@ def get_picture_placeholder(slide):
 
 def add_image_to_slide(slide, slide_bkgnd):
     picture = None
-    placeholder = get_image_placeholder(slide)
+    placeholder = get_picture_placeholder(slide)
     if (placeholder is not None):
         picture = placeholder.insert_picture(slide_bkgnd)
     else:
-        placeholder = get_object_placeholder(slide)
-        if (placeholder is not None):
-            print("Error: object placeholder does not support image")
-        else:
-            print("setting as background")
+        picture = add_background_to_slide(slide,slide_bkgnd)
 
     return picture
 
