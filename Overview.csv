@@ -1,15 +1,17 @@
-Concept,Continuous Delivery,"Creating, testing, and delivering value with greater speed and frequency","Although it started as a software engineering concept, it has been sucessfuly applied to a broader concept of value delivery"
-Concept,A Broader Concept,"Continuous Delivery is the ability to get changes of all types into the hands of users, safely and quickly in a sustainable way.","This includies new features, configuration changes, bug fixes and experiments"
-1_Title and Content,The Benefits,"Low Risk Releases\nFaster Time to Market\nHigher Quality\nLower Costs\nBetter Products\nHappier Teams",""
-Concept,It's Not Magic,"It’s about continuous, daily improvement—the constant discipline of pursuing higher performance","Follow the heuristic 'if it hurts, do it more often, and bring the pain forward.”"
-Concept,Maturity Model,How do you transform your organization to ensure sustainable results?, This model gives structure and understanding to the implementation of Continuous Delivery and its core components.
+Concept,Continuous Delivery,"Creating, testing, and delivering value with greater speed and frequency","Although it started as a software engineering concept, it has been sucessfuly applied to a broader concept of value delivery",media/DevOps.wmf
+Concept,A Broader Concept,"Continuous Delivery is the ability to get changes of all types into the hands of users, safely and quickly in a sustainable way.","This includies new features, configuration changes, bug fixes and experiments",media/DevOps.wmf
+1_Title and Content,The Benefits,"Low Risk Releases - Small, incremental updates\nFaster Time to Market - no waiting\nHigher Quality - testing & verification\nLower Costs - reduced O&M\nBetter Products - user satisfaction\nHappier Teams - lower stress, quick feedback","",media/DevOps.wmf
+Concept,It's Not Magic,"It’s about continuous, daily improvement—the constant discipline of pursuing higher performance","Follow the heuristic 'if it hurts, do it more often, and bring the pain forward.”",media/DevOps.wmf
+Concept,Getting Started,How do you transform your organization to ensure sustainable results?,What do teams need to do?,media/DevOps.wmf
+Concept,Maturity Model,There are delivery practices high functioning teams adopt; advanced teams adopt more of them., This model gives structure and understanding to the implementation of Continuous Delivery and its core components.,media/DevOps.wmf
 Section Header,The Five Categories,"Key aspects to consider when implementing Continuous Delivery"
-Concept,Culture & Organization,The environment of continuous delivery,The organization and it’s culture are probably the most important aspects to consider when aiming to create a sustainable Continuous Delivery environment that takes advantage of all the resulting effects.
-Concept,Design & Architecture,Structuring your product for success,"The design and architecture of your products and services will have an essential impact on your ability to adopt continuous delivery. If a system is built with continuous delivery principles and a rapid release mind set from the beginning, the journey will be much smoother.",
-Concept,Build and Deploy,Building your product artifacts,Build and deployment is of course core to Continuous Delivery and this is where a lot of tools and automation come into the pipeline; this is what is most is commonly perceived when Continuous Delivery is discussed.
-Concept,Testing & Verification,Product artifact quality,Testing is  an absolutely crucial part of a successful implementation of Continuous Delivery.
-Concept,Information & Reporting,Measuring success and progress,"You cannot manage any process without information. Practices in this category give feedback to the team on the effectivness of the process and quality of the value delivered."
-Section Header,Maturity Assessment,"Measuring current state and progress"
-Concept,Maturity Assessment,Simple inventory of practices,Teams get points for adopted practices
-Picture,Example Assessment,,"This assessment is for a real team",media/Assessment.emf
+Concept,Culture & Organization,The environment of continuous delivery.,The organization and it’s culture are probably the most important aspects to consider when aiming to create a sustainable Continuous Delivery environment that takes advantage of all the resulting effects.,media/CultureOrg.wmf
+Concept,Design & Architecture,"Structuring your product for success, quality and user satisfaction.","The design and architecture of your products and services will have an essential impact on your ability to adopt continuous delivery. If a system is built with continuous delivery principles and a rapid release mind set from the beginning, the journey will be much smoother.",media/DesignArch.wmf
+Concept,Build and Deploy,Building your artifacts and delivering their value to the user.,Build and deployment is of course core to Continuous Delivery and this is where a lot of tools and automation come into the pipeline; this is what is most is commonly perceived when Continuous Delivery is discussed.,media/BuildDeploy.wmf
+Concept,Testing & Verification,Product artifact quality.,Testing is  an absolutely crucial part of a successful implementation of Continuous Delivery.,media/TestVerify.wmf
+Concept,Information & Reporting,"Measuring your success, progress and performance.","You cannot manage any process without information. Practices in this category give feedback to the team on the effectivness of the process and quality of the value delivered.",media/InfoReport.wmf
+Section Header,Maturity Assessment,"Measuring current state and progress of the team"
+Concept,Maturity Assessment,Simple inventory of practices common arcoss high functioning teams.,Teams get points for adopted practices,media/Assess.wmf
+1_Title and Content,Two Types,"Comprehensive - 180+ practices.\nStreamlined - aligns with Agile Assessment.\n\nBoth generate scores and a chart.\nBoth usually taken quarterly.","",media/Assess.wmf
+Picture,Example Assessment,,"This assessment is for a real team after one quarter of coaching",media/Assessment.wmf
 Section Header,Summary,"Questions, Answers, and Discussion",
