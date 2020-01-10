@@ -102,6 +102,7 @@ def create_deck(titletxt, subtitletxt, name):
 
 if __name__ == "__main__":
     create_deck("Continuous Delivery Maturity Model", "Sustainable value delivery", "Overview")
+    create_deck("Continuous Delivery Coaching", "Giving teams skills to deliver continually", "Coaching")
     create_deck("Culture & Organization", "The environment of continuous delivery", "Culture")
     create_deck("Design & Architecture", "Structuring your product for success", "Design")
     create_deck("Build & Deploy", "Building your product artifacts", "Build")

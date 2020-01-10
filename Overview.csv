@@ -10,6 +10,13 @@ Concept,Design & Architecture,"Structuring your product for success, quality and
 Concept,Build and Deploy,Building your artifacts and delivering their value to the user.,Build and deployment is of course core to Continuous Delivery and this is where a lot of tools and automation come into the pipeline; this is what is most is commonly perceived when Continuous Delivery is discussed.,media/BuildDeploy.wmf
 Concept,Testing & Verification,Product artifact quality.,Testing is  an absolutely crucial part of a successful implementation of Continuous Delivery.,media/TestVerify.wmf
 Concept,Information & Reporting,"Measuring your success, progress and performance.","You cannot manage any process without information. Practices in this category give feedback to the team on the effectivness of the process and quality of the value delivered.",media/InfoReport.wmf
+Section Header,The Six Levels,"Five levels of maturity plus a regressive level"
+Concept,Regressive,These practices count against your level of maturity.,Don't do these.,media/Regressive.wmf
+Concept,Base,Where all teams should start,This section describes the list of DevOps practices all teams should adopt at a minimum.,media/Base.wmf
+Concept,Beginner,Building on the basics.,This section describes the practices where teams begin to manage their processes.,media/Beginner.wmf
+Concept,Intermediate,Growing and advancing.,These practices are exhibited by teams who deliver consistent quality artifacts.,media/Intermediate.wmf
+Concept,Advanced,Going above and beyond. You really have your act together.,These practices are exhibited by teams well-practiced in continual delivery.,media/Advanced.wmf
+Concept,Expert,Now you are just showing off.,These practices are on the bleeeding edge of DevOps practices.,media/Expert.wmf
 Section Header,Maturity Assessment,"Measuring current state and progress of the team"
 Concept,Maturity Assessment,Simple inventory of practices common arcoss high functioning teams.,Teams get points for adopted practices,media/Assess.wmf
 1_Title and Content,Two Types,"Comprehensive - 180+ practices.\nStreamlined - aligns with Agile Assessment.\n\nBoth generate scores and a chart.\nBoth usually taken quarterly.","",media/Assess.wmf
