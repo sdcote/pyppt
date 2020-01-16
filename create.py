@@ -52,7 +52,7 @@ def add_image_to_slide(slide, slide_bkgnd):
     if (placeholder is not None):
         picture = placeholder.insert_picture(slide_bkgnd)
     else:
-        picture = add_background_to_slide(slide,slide_bkgnd)
+        picture = add_background_to_slide(slide, slide_bkgnd)
 
     return picture
 
@@ -66,7 +66,7 @@ def create_deck(titletxt, subtitletxt, name):
     title.text = titletxt
     subtitle.text = subtitletxt
 
-    with open(name + '.csv', 'rb') as f:
+    with open(name + '.csv', 'r', encoding='utf-8') as f:
         reader = csv.reader(f)
         my_list = list(reader)
 
