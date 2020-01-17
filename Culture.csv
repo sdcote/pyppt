@@ -8,7 +8,7 @@ Concept,Culture & Organization,Defined and documented processes,Do teams follow 
 Concept,Culture & Organization,Frequent commits,Do team members make frequent (multiple times a day) commits to a source code management system?
 Section Header,Beginner Level Practices,Building on the basics,This section describes the practices where teams begin to manage their processes
 Concept,Culture & Organization,One Backlog per team,Does the team only have one source of work?
-Concept,Culture & Organization,Share the pain,Does the team own work as a group?
+Concept,Culture & Organization,Share the pain,Does the team own work as a group?\nCan the development team perform their own operations in order to do get work done?
 Concept,Culture & Organization,Stable teams,Does team membership remain the same over the life of the project?
 Concept,Culture & Organization,Buy-in from management,Does management agree with Agile and DevOps principles?
 Concept,Culture & Organization,Adopt basic agile methods,Does the team actively practice agile methodologies?
@@ -19,7 +19,6 @@ Section Header,Intermediate Level Practices,Growing and advancing,These practice
 Concept,Culture & Organization,Extended team collaboration,"Are teams expected to share resources (e.g. DBA, CM, BA, Ops) and are incented to do so for the success of the overall product?"
 Concept,Culture & Organization,Component ownership,Does only one team own a component or can anybody change anything anytime?
 Concept,Culture & Organization,Act on metrics,Does the team change their methodologies based on collected metrics and their goals?
-Concept,Culture & Organization,Remove Boundary between Development & Operations,Can the development team perform their own operations in order to do get work done?
 Concept,Culture & Organization,Common process for all changes,Does the team follow one process for all changes to the product?
 Concept,Culture & Organization,Decentralize decisions,Is the team empowered to make their own decisions?
 Concept,Culture & Organization,Backlog items are refined by business (product owner),Is there a single deciding party for the teams prioritized list of work?
