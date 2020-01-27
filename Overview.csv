@@ -2,6 +2,7 @@ Concept,Continuous Delivery,"Creating, testing, and delivering value with greate
 Concept,A Broader Concept,"Continuous Delivery is the ability to get changes of all types into the hands of users, safely and quickly in a sustainable way.","This includies new features, configuration changes, bug fixes and experiments",media/DevOps.wmf
 1_Title and Content,The Benefits,"Low Risk Releases - Small, incremental updates\nFaster Time to Market - no waiting\nHigher Quality - testing & verification\nLower Costs - reduced O&M\nBetter Products - user satisfaction\nHappier Teams - lower stress, quick feedback","",media/DevOps.wmf
 Concept,It's Not Magic,"It’s about continuous, daily improvement—the constant discipline of pursuing higher performance","Follow the heuristic 'if it hurts, do it more often, and bring the pain forward.”",media/DevOps.wmf
+Concept,Team Goals,"What are the team's operational goals?\n\nWhy not about consistent, quality releases?",Teams need to establish CD goals,media/DevOps.wmf
 Concept,Getting Started,How do you transform your organization to ensure sustainable results?,What do teams need to do?,media/DevOps.wmf
 Concept,Maturity Model,There are delivery practices high functioning teams adopt; advanced teams adopt more of them., This model gives structure and understanding to the implementation of Continuous Delivery and its core components.,media/DevOps.wmf
 Section Header,The Five Categories,"Key aspects to consider when implementing Continuous Delivery"
@@ -19,6 +20,8 @@ Concept,Advanced,Going above and beyond. You really have your act together.,Thes
 Concept,Expert,Now you are just showing off.,These practices are on the bleeeding edge of DevOps practices.,media/Expert.wmf
 Section Header,Maturity Assessment,"Measuring current state and progress of the team"
 Concept,Maturity Assessment,Simple inventory of practices common arcoss high functioning teams.,Teams get points for adopted practices,media/Assess.wmf
+Concept,Assessment Goal,Find areas for growth,Often reviewing successful practices spark teams problem solving.,media/Assess.wmf
 1_Title and Content,Two Types,"Comprehensive - 180+ practices.\nStreamlined - aligns with Agile Assessment.\n\nBoth generate scores and a chart.\nBoth usually taken quarterly.","",media/Assess.wmf
 Picture,Example Assessment,,"This assessment is for a real team after one quarter of coaching",media/Assessment.wmf
+Concept,Continuous Improvement Goals,"Assessments provide the most value when the team has operational goals","Release Frequency and Defect Leakage are now part of management's standard work. How will the team release more often with fewer defects?",media/Assessment.wmf
 Section Header,Summary,"Questions, Answers, and Discussion",
